@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* global settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* global styling */
+html 
+body {
+    font-family: "Noto sans", sans-serif;
+    line-height: 1.4em;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75px 0px;
+}
+
+/* container-1 */
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container-1 {
+  display: flex;
+  margin: 10px;
+  padding: 30px;
+  padding-left: 18%;
+  padding-right: 0%;
+  
+}
+
+.container div{
+    padding: 32px;
+    flex-wrap: none;
+    padding: auto;
+    display: grid;
+}
+
+/* end container-1 */
+
+.section {
+    margin-top: 0px;
+}
+
+.we{
+    color: rgb(218, 128, 18);
+}
+
+.icon{
+    float: left;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    background-color: burlywood;
+    border: burlywood;
+    border-radius: 220%;
+}
+
+section{
+    margin-bottom: 120%;
+    padding-top: 5%;
+}
+
+  /* colums */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column1, .column2, .column3 {
+    float: left;
+    width: 28.30%;
+    padding: 5px;
+    padding-left: 10px;
+    height: 300px; 
+  }
+/*remove float*/
+  .row:after {
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 120px) {
+    .column {
+      width: 600px;
+    }
+  }
+  
